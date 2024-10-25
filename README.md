@@ -139,4 +139,24 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-Example command to run tests in Truffle:
+Example command to run tests in Truffle:truffle test
+
+Deployment
+
+Deploying the MyToken contract to an Ethereum network can be done through a development environment like Truffle, Hardhat, or directly with Remix for ease of use.
+
+Deployment Example (with Truffle)
+
+1. Update truffle-config.js with your network settings.
+
+
+2. Deploy to your network of choice:
+
+truffle migrate --network <network_name>
+
+
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
